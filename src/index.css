@@ -12,6 +12,9 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
   }
+  .scroll-hidden::-webkit-scrollbar{
+    display: none !important;
+  }
   /* container  */
   .travigo-container {
     @apply w-[85vw] xl:w-[95vw] m-auto;
@@ -41,4 +44,5 @@
     visibility: hidden;
     transform: skewY(3deg) translateY(-30px);
   }
+
 }
