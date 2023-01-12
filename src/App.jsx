@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar , Hero , Memory, Explore , Footer, Advertise, Pricing } from './components';
-import { hero , navlinks , memory , placesAPI , brands , pricingapi} from './data/travigodata';
+import { Navbar , Hero , Memory, Explore , Footer, Advertise, Pricing, Banner } from './components';
+import { hero , navlinks , memory , placesAPI , brands , pricingapi , bannerAPI} from './data/travigodata';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Explore title="Explore The Beauty of World" placesAPI={placesAPI}/>
       <Advertise brands={brands}/>
       <Pricing pricingapi={pricingapi}/>
+      <Banner bannerAPI={bannerAPI}/>
       <Footer/>
     </div>
   );
